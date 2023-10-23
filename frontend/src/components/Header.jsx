@@ -17,7 +17,7 @@ import { Home, Login } from "@mui/icons-material";
 const Header = () => {
   return (
     <>
-      <AppBar position="sticky" sx={{ backgroundColor: "maroon" }}>
+      <AppBar position="sticky" sx={{ backgroundColor: "#517f3d" }}>
         <CssBaseline />
         <Toolbar>
           <IconButton color="inherit" edge="start" aria-label="menu">
@@ -31,6 +31,7 @@ const Header = () => {
               variant="contained"
               startIcon={<Home />}
               disableRipple
+              color="warning"
               href="/"
             >
               Home
@@ -39,6 +40,7 @@ const Header = () => {
               variant="contained"
               endIcon={<Login />}
               disableRipple
+              color="warning"
               href="/login"
             >
               Login
