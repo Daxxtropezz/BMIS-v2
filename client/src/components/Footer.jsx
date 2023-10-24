@@ -32,8 +32,8 @@ function Footer() {
         sx={{ top: "auto", bottom: 0, backgroundColor: "#517f3d" }}
       >
         <Toolbar>
-          <Typography variant="body1" style={{ flex: 1 }}>
-            {formattedDateTime}
+          <Typography variant="body2" style={{ flex: 1 }}>
+            {formattedDateTime} | BMIS v2 &copy; 2023
           </Typography>
         </Toolbar>
       </AppBar>
